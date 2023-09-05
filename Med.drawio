@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T03:34:37.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5Fxr9fpm3cEOZpB_h5EI" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T08:08:07.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eo9EuWRKvpYyyi4p-faJ" version="21.7.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1050" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
         <mxCell id="xw-pGz6gGFtMjfykfb_H-2" value="Gin&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="xw-pGz6gGFtMjfykfb_H-6" vertex="1">
           <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hz5IcJybCG8yWNN0sjgt-1" value="BunDB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xw-pGz6gGFtMjfykfb_H-6">
+        <mxCell id="Hz5IcJybCG8yWNN0sjgt-1" value="BunDB" style="ellipse;whiteSpace=wrap;html=1;" parent="xw-pGz6gGFtMjfykfb_H-6" vertex="1">
           <mxGeometry x="70" y="50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xw-pGz6gGFtMjfykfb_H-13" value="Redirect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -50,14 +50,14 @@
         <mxCell id="xw-pGz6gGFtMjfykfb_H-4" value="Postgresql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="410" y="200" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Hz5IcJybCG8yWNN0sjgt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.503;entryY=1.135;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hz5IcJybCG8yWNN0sjgt-1" target="xw-pGz6gGFtMjfykfb_H-4">
+        <mxCell id="Hz5IcJybCG8yWNN0sjgt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.503;entryY=1.135;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Hz5IcJybCG8yWNN0sjgt-1" target="xw-pGz6gGFtMjfykfb_H-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hz5IcJybCG8yWNN0sjgt-7" value="Restful API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Hz5IcJybCG8yWNN0sjgt-7" value="Restful API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hz5IcJybCG8yWNN0sjgt-8" value="GRPC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="540" width="60" height="30" as="geometry" />
+        <mxCell id="FIK1gRrgWRsTZNcXrayc-1" value="&lt;h1&gt;MedServer和Sath之间通信方式&lt;/h1&gt;&lt;p&gt;1. 重用GRPC通道？&lt;/p&gt;&lt;p&gt;2.Web直接向Sath请求？&lt;/p&gt;&lt;p&gt;3.MedServer转发API 请求？&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="640" width="370" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
